@@ -8,16 +8,8 @@
 
 ### Как запустить проект локально:
 
-## Создайте файл _.env_ в директории _infra/_ и внестите в него данные:
 
-```
-DB_ENGINE=django.db.backends.postgresql
-DB_NAME=postgres
-POSTGRES_USER=postgres
-POSTGRES_PASSWORD= # установите свой пароль
-DB_HOST=db
-DB_PORT=5432
-```
+
 
 ## Проверьте настройки в _setting.py_, раздел _DATABASES_:
 
