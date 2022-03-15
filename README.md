@@ -49,5 +49,4 @@ DATABASES = {
 
 ## Статус рабочих процессов:
 
-![example workflow]
-(https://github.com/Vofkabob/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+![example workflow](https://github.com/Vofkabob/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
