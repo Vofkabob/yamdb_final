@@ -6,30 +6,6 @@
 2) сборка docker-образа происходит на основании файлов Dockerfile и docker-compose.yaml, где прописаны соответствующие инструкции. Образ собирается на интернет сервисе DockerHub, создаются 3 контейнера: web, db и nginx;
 3) проект запускается из сервиса DockerHub, после успешного запуска всех 3-х контейнеров. 
 
-## Как запустить проект локально:
-
-Для начала необходимо клонировать репозиторий на свой компьютер:
-
-```
-git clone https://github.com/Vofkabob/yamdb_final.git
-```
-
-Проверьте настройки в _setting.py_, раздел _DATABASES_:
-
-```
-DATABASES = {
-    'default': {
-        'ENGINE': os.getenv('DB_ENGINE', default='django.db.backends.postgresql'),
-        'NAME': os.getenv('DB_NAME', default=None),
-        'USER': os.getenv('POSTGRES_USER', default=None),
-        'PASSWORD': os.getenv('POSTGRES_PASSWORD', default=None),
-        'HOST': os.getenv('DB_HOST', default=None),
-        'PORT': os.getenv('DB_PORT', default=None)
-    }
-}
-```
-
-Далее необходимо...
 
 ## Доступные ссылки к приложению:
 
