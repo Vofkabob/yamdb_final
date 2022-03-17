@@ -1,3 +1,7 @@
+### Проект Yandb_final
+
+![example workflow](https://github.com/Vofkabob/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+
 ### Описание проекта:
 
 С помощью данного проекта можно развернуть образ приложения api_yamdb (проект по сбору отзывов о музыкальных произведениях) на сервере sergeev-cloud (подключен к Yandex Cloud).
@@ -19,6 +23,7 @@
 - работа с комментариями к отзывам
 - просмотр пользователей
 
-## Статус рабочих процессов:
+## Поект доступен по адресу
 
-![example workflow](https://github.com/Vofkabob/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+http://
+
