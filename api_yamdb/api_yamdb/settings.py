@@ -111,7 +111,7 @@ USE_L10N = True
 # Static files (CSS, JavaScript, Images)
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS = (os.path.join(BASE_DIR, 'start_static/'),)
+# STATICFILES_DIRS = (os.path.join(BASE_DIR, 'start_static/'),)
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 MEDIA_URL = '/media/'
