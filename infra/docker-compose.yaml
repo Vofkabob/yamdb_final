@@ -8,7 +8,7 @@ services:
     env_file:
       - ./.env
   web:
-    image: sergeev90/api_yamdb:latest
+    image: sergeev90/api_yamdb:v1.03.2022
     restart: always
     volumes:
       - static_value:/app/static/
