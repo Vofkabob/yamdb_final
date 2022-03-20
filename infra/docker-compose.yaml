@@ -8,9 +8,6 @@ services:
     env_file:
       - ./.env
   web:
-    build:
-      context: ../
-      dockerfile: api_yamdb/Dockerfile
     image: sergeev90/api_yamdb:latest
     restart: always
     volumes:
@@ -23,7 +20,6 @@ services:
 
   nginx:
     image: nginx:1.21.3-alpine
-
     ports:
       - "80:80"
 
