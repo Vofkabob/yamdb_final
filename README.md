@@ -15,7 +15,7 @@
 
 ## Подготовка и запуск проекта:
 
-Клонироваnm репозиторий:
+Клонировать репозиторий:
 
 ```
 git clone https://github.com/Vofkabob/yamdb_final.git
